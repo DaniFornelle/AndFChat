@@ -19,38 +19,38 @@
 
     <!-- Simple stuff for buttons, title etc. -->
     <string name="app_name">AndFChat</string>
-    <string name="menu_settings">Settings</string>
+    <string name="menu_settings">Configuración</string>
     
-    <string name="yes">Yes</string>
+    <string name="yes">Sí</string>
     <string name="no">No</string>
     
-    <string name="account">Account</string>
-    <string name="password">Password</string>
-    <string name="login">Log In</string>
-    <string name="connecting">Connecting…</string>
-    <string name="remember_account">Remember Account</string>
-    <string name="logout">Log Out</string>
-    <string name="about">About</string>    
-    <string name="settings">Settings</string>
-    <string name="bookmark_user">+Bookmark</string>
-    <string name="unbookmark_user">-Bookmark</string>
-    <string name="show_details">Open Details</string>
-    <string name="show_profile">Profile</string>
-    <string name="pm_user">Open PM</string>
-    <string name="close">Close</string>
-    <string name="chatmessage_hint">Write a message</string>
-    <string name="send_message">Send</string>
-    <string name="friendlist">Friends &amp; Bookmarks</string>
-    <string name="hide">Hide</string>
-    <string name="show">Show</string>
+    <string name="account">Cuenta</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Iniciar</string>
+    <string name="connecting">Connectando...</string>
+    <string name="remember_account">Ahorrar Cuenta</string>
+    <string name="logout">Salir</string>
+    <string name="about">Sobre fChat</string>    
+    <string name="settings">Configuración</string>
+    <string name="bookmark_user">+Marca</string>
+    <string name="unbookmark_user">-Marca</string>
+    <string name="show_details">Detalles</string>
+    <string name="show_profile">Perfil</string>
+    <string name="pm_user">Mensajes</string>
+    <string name="close">Cerrar</string>
+    <string name="chatmessage_hint">Escribir mensaje</string>
+    <string name="send_message">Mandar correo</string>
+    <string name="friendlist">Amigos y Marcas</string>
+    <string name="hide">Ocultar</string>
+    <string name="show">Mostrar</string>
     <string name="arrows_left">&lt;&lt;</string>
     <string name="arrows_right">&gt;&gt;</string>
-    <string name="channels">Channels</string>
-    <string name="public_channels">Public Channels</string>
-    <string name="private_channels">Private Channels</string>
-    <string name="friends_selector">Friends</string>
-    <string name="bookmarks_selector">Bookmarks</string>
-    <string name="leave_channel">Leave</string>
+    <string name="channels">Canales</string>
+    <string name="public_channels">Canales Públicos</string>
+    <string name="private_channels">Canales Privados</string>
+    <string name="friends_selector">Amigos</string>
+    <string name="bookmarks_selector">Marcas</string>
+    <string name="leave_channel">Salir</string>
     <string name="export_text">Export</string>
     <string name="post_ad_text">Post Ad</string>    
     <string name="channel_description">Description</string>
@@ -63,7 +63,7 @@
     <string name="notification_connected">Connected to F-chat</string>
     <string name="notification_disconnect">Disconnected from F-Chat</string>
     <plurals name="notification_attention">
-        <item quantity="one">You have %d new message</item>
+        <item quantity="one">You have one new message</item>
         <item quantity="other">You have %d new messages</item>
     </plurals>
     
@@ -84,7 +84,7 @@
     <string name="error_login">Login failed: </string>
     <string name="error_disconnected">Disconnected: </string>
     <string name="error_disconnected_no_connection">Lost connection to server</string>
-    <string name="error_command_not_allowed">This command isn\'t allowed here</string>
+    <string name="error_command_not_allowed">This command isn\'t allowed in the active environment</string>
     <string name="error_name_not_found">No user with name \'%1$s\' found</string>
     <string name="error_no_name_given">Please give a username as a parameter</string>
 
@@ -197,12 +197,7 @@
         <item>Medium</item>
         <item>Big</item>
     </string-array>
-
-    <string-array name="language_translation">
-        <item>English</item>
-        <item>German</item>
-        <item>Spanish</item>
-    </string-array>
+    
     
     <!-- Themes -->  
     <string-array name="themes_translation">
